@@ -76,6 +76,13 @@ sddm libqt6svg6 qt6-virtualkeyboard-plugin libqt6multimedia6 qml6-module-qtquick
 ```sh
 sudo git clone -b master --depth 1 https://github.com/conig/sddm-astronaut-theme.git /usr/share/sddm/themes/sddm-astronaut-theme
 ```
+
+Or copy it locally:
+```sh
+sudo rm -rf /usr/share/sddm/themes/sddm-astronaut-theme
+sudo cp -r . /usr/share/sddm/themes/sddm-astronaut-theme
+```
+
 3. Copy fonts to `/usr/share/fonts/`
 ```sh
 sudo cp -r /usr/share/sddm/themes/sddm-astronaut-theme/Fonts/* /usr/share/fonts/
